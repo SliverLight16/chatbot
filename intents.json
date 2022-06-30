@@ -1,0 +1,87 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are many",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "response": [
+                "Hey ;)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "response": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Anytime!", "My pleasure"] 
+        },
+        {
+            "tag": "items", 
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?"
+            ],
+            "responses": [
+                "We sell coffee and tea.",
+                "We have tea and coffee."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can i pay with PayPal",
+                "Are you cash only"
+            ],
+            "responses": [
+                "We accept Visa, Mastercard, and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery"
+            ],
+
+            "responses":[
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny.",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "What do you call a can opener that doesn't work? A can't opener!",
+                "What did the fish say when he swam into a wall? Dam.",
+                "I sold my vacuum the other day. All it was doing was collecting dust."
+            ]
+        }
+    ]       
+}
+    
