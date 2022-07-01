@@ -10,7 +10,7 @@
                 "Hello",
                 "Good day"
             ],
-            "response": [
+            "responses": [
                 "Hey ;)",
                 "Hello, thanks for visiting",
                 "Hi there, what can I do for you?",
@@ -20,7 +20,7 @@
         {
             "tag": "goodbye",
             "patterns": ["Bye", "See you later", "Goodbye"],
-            "response": [
+            "responses": [
                 "See you later, thanks for visiting",
                 "Have a nice day",
                 "Bye! Come back again soon."
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "tag": "delivery",
+            "tag": "dielivery",
             "patterns": [
                 "How long does delivery take?",
                 "How long does shipping take?",
@@ -77,9 +77,9 @@
                 "Do you know a joke?"
             ],
             "responses": [
-                "What do you call a can opener that doesn't work? A can't opener!",
+                "What do you call a can opener that doesn't work? \n A can't opener!",
                 "What did the fish say when he swam into a wall? Dam.",
-                "I sold my vacuum the other day. All it was doing was collecting dust."
+                "I sold my vacuum the other day. \n All it was doing was collecting dust."
             ]
         }
     ]       
